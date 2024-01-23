@@ -5,7 +5,7 @@ import './nav.css'
 function Nav() {
   return (
     <footer>
-    <Link to="/"><button>Home</button></Link>
+    <Link to="/"><button>🍻</button></Link>
     </footer>
   )
 }
