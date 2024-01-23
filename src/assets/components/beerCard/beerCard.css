@@ -1,0 +1,28 @@
+.beer-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5em;
+    width: 60%;
+}
+
+.beer-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 90%;
+}
+
+.beer-card-img{
+    img{
+        width: 75px;
+    }
+}
+
+h3{
+    color: var(--xanthous);
+}
+
+p, h2{
+    color: var(--prussian-blue);
+}

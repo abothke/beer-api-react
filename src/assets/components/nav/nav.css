@@ -1,0 +1,10 @@
+footer {
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: var(--prussian-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

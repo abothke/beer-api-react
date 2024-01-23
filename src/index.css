@@ -1,16 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Jost, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color:  #000;
+  background-color: var(--xanthous);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --prussian-blue: #003049ff;
+  --fire-engine-red: #d62828ff;
+  --orange-wheel: #f77f00ff;
+  --xanthous: #fcbf49ff;
+  --vanilla: #eae2b7ff;
 }
 
 a {
@@ -42,7 +47,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--fire-engine-red);
   cursor: pointer;
   transition: border-color 0.25s;
 }
