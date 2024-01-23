@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import BeerCard from '../assets/components/beerCard/BeerCard'
 import Nav from '../assets/components/nav/Nav'
-import './Beers.css'
+import './beers.css'
 
 function Beers() {
     const [beers, setBeers] = useState([])
